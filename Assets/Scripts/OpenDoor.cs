@@ -1,34 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class OpenDoor : MonoBehaviour
 {
-    public int count, check;
-    public string socketName;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int check = 0;
+    [SerializeField] GameObject hallFloor1, hallFloor2;
 
     // Update is called once per frame
     void Update()
     {
+        if (check == 3)
+        {
+            GetComponent<Animator>().SetBool("character_nearby", true);
+            hallFloor1.GetComponent<TeleportationArea>().enabled = true;
+            hallFloor2.GetComponent<TeleportationArea>().enabled = true;
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("character_nearby", false);
+            hallFloor1.GetComponent<TeleportationArea>().enabled = false;
+            hallFloor2.GetComponent<TeleportationArea>().enabled = false;
+        }
     }
-
-    public void CheckPiece(GameObject piece)
-    {
-        if (piece.name == socketName)
-            Debug.Log(piece.name + socketName);
-            augmentCount();
-    }
-
-
-    public void NextCorridor()
-    {
-        
-    }
-
-    public void augmentCount() => count++;
 }
