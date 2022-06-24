@@ -1,5 +1,9 @@
 # 0x0B-unity-vr_room
 
+<p align="center">
+<img height="300" src="https://www.howtogeek.com/wp-content/uploads/2021/10/shutterstock_1993051283.jpg?height=200p&trim=2,2,2,2">
+</p>
+
 ---
 ## ¿What is VR? :newspaper:
 Virtual reality is the use of computer technology to create simulated environments. Virtual reality places the user inside a three-dimensional experience. Instead of viewing a screen in front of them, users are immersed in and interact with 3D worlds.
@@ -8,6 +12,7 @@ Virtual reality is the use of computer technology to create simulated environmen
 
 ## What you will find here :round_pushpin:
 In this VR experience you will have to solve small puzzles in order to advance to the next room:
+
 ![ShowCase](https://github.com/AdrianVides56/0x0B-unity-vr_room/blob/main/Assets/Resources/Gif/VRRoomShow.gif?raw=true)
 
 ---
