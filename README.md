@@ -1,18 +1,18 @@
 # 0x0B-unity-vr_room
 
 ---
-## ¿What is VR? 
+## ¿What is VR? :newspaper:
 Virtual reality is the use of computer technology to create simulated environments. Virtual reality places the user inside a three-dimensional experience. Instead of viewing a screen in front of them, users are immersed in and interact with 3D worlds.
 
 ---
 
-## What you will find here
+## What you will find here :round_pushpin:
 In this VR experience you will have to solve small puzzles in order to advance to the next room:
 ![ShowCase](https://github.com/AdrianVides56/0x0B-unity-vr_room/blob/main/Assets/Resources/Gif/VRRoomShow.gif?raw=true)
 
 ---
 
-## Install:
+## Install: :arrow_double_down:
 
 #### Install on Quest (1 & 2):
 1. Download [this file](https://drive.google.com/file/d/1inB2BK2AdhtcIQ-8KUi7pVMur0FW8oXI/view?usp=sharing).
